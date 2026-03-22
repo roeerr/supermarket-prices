@@ -1,0 +1,21 @@
+{
+  "name": "israeli-supermarket-prices",
+  "version": "1.0.0",
+  "description": "מנוע חיפוש מחירי סופרמרקטים ישראלי",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "axios": "^1.13.6",
+    "basic-ftp": "^5.2.0",
+    "better-sqlite3": "^9.4.3",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "iconv-lite": "^0.6.3",
+    "node-cron": "^3.0.3",
+    "xml2js": "^0.6.2"
+  }
+}
